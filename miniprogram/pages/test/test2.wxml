@@ -2,14 +2,14 @@
 
 <view class="main">
 
-  <image class="bg" src="../../images/证件白底.png" mode="aspectFill">
+  <image class="bg" src="../../images/证件红底.png" mode="aspectFill" >
     <image class="photo" src="../../images/叶修正面.jpg" mode="widthFix"></image>
 
     <image class="logo" src="../../images/glory-logo.webp" mode="widthFix"></image>
     <view class="info">
-      <view>姓名：叶修</view>
-      <view>队伍：中国队</view>
-      <view>职位：领队</view>
+      <view style="height: 77rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx">姓名：{{name}}</view>
+      <view style="position: relative; left: 0rpx; top: 0rpx">队伍：{{team}}</view>
+      <view>职位：{{role}}</view>
    </view>
 
 
