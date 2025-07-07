@@ -1,0 +1,20 @@
+
+
+<view class="main">
+
+  <image class="bg" src="../../images/证件白底.png" mode="aspectFill">
+    <image class="photo" src="../../images/叶修正面.jpg" mode="widthFix"></image>
+
+    <image class="logo" src="../../images/glory-logo.webp" mode="widthFix"></image>
+    <view class="info">
+      <view>姓名：叶修</view>
+      <view>队伍：中国队</view>
+      <view>职位：领队</view>
+   </view>
+
+
+  </image>
+
+
+
+</view>
