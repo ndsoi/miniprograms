@@ -7,9 +7,18 @@
 
     <image class="logo" src="../../images/glory-logo.webp" mode="widthFix"></image>
     <view class="info">
-      <view style="height: 77rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx">姓名：{{name}}</view>
-      <view style="position: relative; left: 0rpx; top: 0rpx">队伍：{{team}}</view>
-      <view>职位：{{role}}</view>
+      <view class="item">
+        <text>姓名:</text>
+        <input placeholder="{{name}}" placeholder-class="place"></input>
+      </view>
+      <view class="item">
+        <text>队伍:</text>
+        <input placeholder="{{team}}" placeholder-class="place"></input>
+      </view>
+      <view class="item">
+        <text>职位:</text>
+        <input placeholder="{{role}}" placeholder-class="place"></input>
+      </view>
    </view>
 
 
